@@ -18,7 +18,7 @@
 ```python
 profile = {
     "handle"   : "D3FAULTH",
-    "role"     : "Hacker · Team Builder",
+    "role"     : "Invincible",
     "focus"    : "Shared knowledge · Practical problem-solving",
     "building" : "Private tools · Shared workflows",
     "team_os"  : "Anonymous OS · Members-only access planned",

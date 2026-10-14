@@ -1,46 +1,29 @@
-# D3FAULTH GitHub profile
+# D3FAULTH profile maintenance
 
-This package is a profile README inspired by the supplied layout, with original D3FAULTH artwork and CAPTAIN as the flagship. The copy was checked against the current private CAPTAIN README, roadmap, and launch plan on October 14, 2026 UTC.
+This README presents D3FAULTH as a hacker and CTF player building a team for Hack The Box and competitions. The team is described as forming; no membership counts, ranks, certifications, competition results, or professional experience are claimed.
 
-## Preview
+## Repository and profile display
 
-Open `preview.html` in a browser. It contains an offline approximation of GitHub's README rendering. GitHub's spacing and fonts may differ. The repository files are `README.md` and the `assets` directory; the preview is only for reviewing this package.
+The current public repository is `d3faulth-private/README.md`. Its root README appears on the repository page.
 
-## Current repository
+GitHub displays an account profile README from a public repository whose name matches the username. To also display this content on the profile, use `d3faulth-private/d3faulth-private` and copy `README.md` plus the complete `assets` directory into its root.
 
-Published to the user-selected public repository `d3faulth-private/README.md`. Its root README appears on the repository page. The separate profile-display requirements below apply only if this content should also appear on the account profile.
+Documentation: https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme
 
-## Put it on your profile
+## Files
 
-GitHub displays a profile README from a **public** repository whose name exactly matches the username. For this account, the destination is:
+- `README.md`: the public introduction and team invitation.
+- `assets/`: self-contained SVG banner, navigation badges, and footer.
+- `preview.html`: an offline approximation of the README rendering; open in a browser after downloading.
 
-`d3faulth-private/d3faulth-private`
+Keep the preview synchronized when changing the README or artwork. Relative asset paths must stay valid in the published repository.
 
-1. In GitHub, create a public repository named `d3faulth-private`. If it already exists outside the connected app's access, use that repository.
-2. Put this package's `README.md` at the repository root.
-3. Upload the entire `assets` folder beside it, preserving the folder name.
-4. Commit the files and open `https://github.com/d3faulth-private` to view the profile.
+## Future updates
 
-You do not need to change CAPTAIN's private visibility. Creating a separate profile repository does not publish CAPTAIN's source. Do not replace CAPTAIN's installation README with this profile.
+1. Add an exact HTB profile URL when supplied; the handle alone is not a numeric profile identifier.
+2. Add a team name, roster, and practice schedule when those decisions are made.
+3. Link public tools and writeups when they exist and are ready to share.
+4. Add results and statistics only when they can be verified.
+5. Update the team-interest issue links if this repository is renamed.
 
-GitHub documentation: https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme
-
-## How it supports the repository goal
-
-- **Recognizable identity:** D3FAULTH is the lead identity; CAPTAIN by D3FAULTH is the flagship.
-- **Attention through useful work:** move from a clear profile to a reproducible demonstration, independently tested setup, and a public starter within the existing 30-day launch plan.
-- **Private work stays separate:** specialized tools remain private. The public starter must work without them.
-- **Honest progress:** the current code is alpha. Laptop validation, a recorded demonstration, and public release are still pending.
-- **Useful links:** the profile has no links to private source, nonexistent public repositories, or unverified social accounts.
-
-The one-month visibility target is an objective, not a promised ranking. Track independent successful installations, repeat users, actionable feedback, and contributions alongside stars and followers.
-
-## At public launch
-
-1. Replace the private-alpha status with the verified release status.
-2. Add the actual public starter URL and a real demonstration link under CAPTAIN.
-3. Link CAPTAIN Labs only once the public destination exists.
-4. Mark roadmap items complete only when the corresponding results exist.
-5. Keep detailed setup, architecture, and usage instructions in the project repository.
-
-No follower counts, star counts, professional credentials, or working demonstrations have been invented. The artwork is self-contained SVG with no JavaScript, remote fonts, or third-party rendering service. Activity/statistics cards can be added later using the real GitHub username.
+Grow recognition through useful releases, clear writeups, and consistent participation. Specialized tools and ongoing team work can remain private while selected work is public.

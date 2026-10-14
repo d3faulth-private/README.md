@@ -1,184 +1,147 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>D3FAULTH — GitHub profile preview</title><style>*{box-sizing:border-box}html{color-scheme:dark}body{margin:0;background:#0d1117;color:#d5dce5;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}main{max-width:1020px;margin:40px auto;padding:40px;border:1px solid #303a45;border-radius:12px;background:#0d1117}h2{font-size:25px;margin:32px 0 16px;padding-bottom:9px;border-bottom:1px solid #293540;color:#f0f6fc;line-height:1.3}p{margin:0 0 16px}a{color:#64cde5;text-decoration:none}a:hover{text-decoration:underline}img{max-width:100%;vertical-align:middle}hr{height:1px;border:0;background:#293540;margin:28px 0}table{border-collapse:collapse;width:100%;margin:16px 0 24px;font-size:15px}th,td{text-align:left;border:1px solid #303a45;padding:12px 15px}th{background:#19232d;color:#e7edf3}tr:nth-child(even){background:#101923}pre{padding:22px;border-radius:8px;background:#151f2a;overflow-x:auto;font-size:14px;line-height:1.65}code{font-family:"DejaVu Sans Mono",Consolas,monospace;background:#17232e;padding:2px 5px;border-radius:4px;font-size:.9em}pre code{background:none;padding:0;font-size:inherit}details{padding:16px 20px;border:1px solid #303a45;border-radius:8px;margin:20px 0}summary{cursor:pointer;color:#bdf364}details[open] summary{margin-bottom:16px}ul{padding-left:24px}.task-list{list-style:none;padding-left:0}.task-list li{margin:10px 0}strong{color:#eff4f9}input{accent-color:#bbf75b}@media(max-width:650px){main{margin:0;padding:20px 16px;border:0;border-radius:0}h2{font-size:23px}table{font-size:13px}td,th{padding:9px}pre{font-size:12px;padding:15px}}</style></head><body><main><div align="center">
-  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDEyODAgNDAwIiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0idGl0bGUgZGVzYyI+CiAgPHRpdGxlIGlkPSJ0aXRsZSI+RDNGQVVMVEgg4oCUIENBUFRBSU48L3RpdGxlPgogIDxkZXNjIGlkPSJkZXNjIj5Mb2NhbCBBSSwgdm9pY2UgY29udHJvbCwgYW5kIHNlY3VyaXR5IGxhYnMuIEJ1aWxkaW5nIENBUFRBSU4gYnkgRDNGQVVMVEguPC9kZXNjPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiMxMDFiMjQiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwODBjMTEiLz48L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJhY2NlbnQiPjxzdG9wIHN0b3AtY29sb3I9IiNiYmY3NWIiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM0OGQ3ZGEiLz48L2xpbmVhckdyYWRpZW50PgogICAgPHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTTQwIDBIMFY0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNzc5NmFiIiBzdHJva2Utb3BhY2l0eT0iLjA3NSIvPjwvcGF0dGVybj4KICA8L2RlZnM+CiAgPHJlY3QgeD0iMSIgeT0iMSIgd2lkdGg9IjEyNzgiIGhlaWdodD0iMzk4IiByeD0iMTgiIGZpbGw9InVybCgjYmcpIiBzdHJva2U9IiMyODM2NDMiLz4KICA8cmVjdCB4PSIxIiB5PSIxIiB3aWR0aD0iMTI3OCIgaGVpZ2h0PSIzOTgiIHJ4PSIxOCIgZmlsbD0idXJsKCNncmlkKSIvPgogIDxwYXRoIGQ9Ik01NCAxSDEyMjYiIHN0cm9rZT0idXJsKCNhY2NlbnQpIiBzdHJva2Utd2lkdGg9IjMiLz4KICA8ZyBmb250LWZhbWlseT0iRGVqYVZ1IFNhbnMsIEFyaWFsLCBzYW5zLXNlcmlmIj4KICAgIDxyZWN0IHg9IjU2IiB5PSI0OSIgd2lkdGg9IjgiIGhlaWdodD0iOCIgcng9IjIiIGZpbGw9IiNiYmY3NWIiLz4KICAgIDx0ZXh0IHg9Ijc4IiB5PSI2MCIgZm9udC1zaXplPSIxNCIgbGV0dGVyLXNwYWNpbmc9IjMiIGZpbGw9IiNhOWJkY2IiPklOREVQRU5ERU5UIFBST0pFQ1RTIC8gSU4gREVWRUxPUE1FTlQ8L3RleHQ+CiAgICA8dGV4dCB4PSI1MCIgeT0iMTcwIiBmb250LXNpemU9Ijk0IiBmb250LXdlaWdodD0iNzAwIiBsZXR0ZXItc3BhY2luZz0iLTUiIGZpbGw9IiNmMWY2ZmEiPkQzRkFVTFRIPHRzcGFuIGZpbGw9IiNiYmY3NWIiPi48L3RzcGFuPjwvdGV4dD4KICAgIDx0ZXh0IHg9IjU3IiB5PSIyMjEiIGZvbnQtc2l6ZT0iMjQiIGZpbGw9IiNjMWNkZDYiPkxvY2FsIEFJLiBWb2ljZSBjb250cm9sLiBTZWN1cml0eSBsYWJzLjwvdGV4dD4KICAgIDxwYXRoIGQ9Ik01NyAyNTNINjYwIiBzdHJva2U9IiMyYzNjNDciLz4KICAgIDx0ZXh0IHg9IjU3IiB5PSIyOTIiIGZvbnQtc2l6ZT0iMTQiIGxldHRlci1zcGFjaW5nPSIzIiBmaWxsPSIjOGRhNGI2Ij5GTEFHU0hJUCBQUk9KRUNUPC90ZXh0PgogICAgPHRleHQgeD0iNTciIHk9IjMzNyIgZm9udC1zaXplPSIzMSIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjMiIGZpbGw9IiNiYmY3NWIiPkNBUFRBSU48L3RleHQ+CiAgICA8dGV4dCB4PSIyNDkiIHk9IjMzNSIgZm9udC1zaXplPSIxNyIgZmlsbD0iI2E5YmRjYiI+QW4gb2JqZWN0aXZlLiBBIHBsYW4uIEV2aWRlbmNlLjwvdGV4dD4KICA8L2c+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAwMCAxOTApIj4KICAgIDxjaXJjbGUgcj0iMTI3IiBmaWxsPSIjMGExMjE5IiBzdHJva2U9IiMyNTM5NDYiLz4KICAgIDxjaXJjbGUgcj0iMTA2IiBmaWxsPSJub25lIiBzdHJva2U9IiM0NzYyNmUiIHN0cm9rZS1kYXNoYXJyYXk9IjIgMTIiLz4KICAgIDxjaXJjbGUgcj0iODMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzI2NDU1MiIvPgogICAgPHBhdGggZD0iTS0xNTEgMEgtOThNOTggMEgxNTFNMC0xNTFWLTk4TTAgOThWMTUxIiBzdHJva2U9IiM2MDg4OTciLz4KICAgIDxwYXRoIGQ9Ik0wLTc2TDU2IDUzTDAgMjhMLTU2IDUzWiIgZmlsbD0iI2JiZjc1YiIvPgogICAgPHBhdGggZD0iTTAtNzZWMjhMNTYgNTNaIiBmaWxsPSIjNDhkN2RhIi8+CiAgICA8Y2lyY2xlIGN4PSIwIiBjeT0iLTEyNyIgcj0iNSIgZmlsbD0iI2JiZjc1YiIvPgogICAgPGNpcmNsZSBjeD0iMTI3IiBjeT0iMCIgcj0iNCIgZmlsbD0iIzQ4ZDdkYSIvPgogIDwvZz4KICA8dGV4dCB4PSIxMDAwIiB5PSIzNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJEZWphVnUgU2FucyBNb25vLCBtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTMiIGxldHRlci1zcGFjaW5nPSIzIiBmaWxsPSIjN2Q5YWFhIj5QTEFOIC8gQUNUIC8gVkVSSUZZPC90ZXh0Pgo8L3N2Zz4K" width="100%" alt="D3FAULTH — Local AI. Voice control. Security labs." />
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>D3FAULTH — Hacker and CTF team</title><style>*{box-sizing:border-box}html{color-scheme:dark}body{margin:0;background:#0d1117;color:#d5dce5;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}main{max-width:1020px;margin:40px auto;padding:40px;border:1px solid #303a45;border-radius:12px;background:#0d1117}h2{font-size:25px;margin:32px 0 16px;padding-bottom:9px;border-bottom:1px solid #293540;color:#f0f6fc;line-height:1.3}p{margin:0 0 16px}a{color:#64cde5;text-decoration:none}a:hover{text-decoration:underline}img{max-width:100%;vertical-align:middle}hr{height:1px;border:0;background:#293540;margin:28px 0}table{border-collapse:collapse;width:100%;margin:16px 0 24px;font-size:15px}th,td{text-align:left;border:1px solid #303a45;padding:12px 15px}th{background:#19232d;color:#e7edf3}tr:nth-child(even){background:#101923}pre{padding:22px;border-radius:8px;background:#151f2a;overflow-x:auto;font-size:14px;line-height:1.65}code{font-family:"DejaVu Sans Mono",Consolas,monospace;background:#17232e;padding:2px 5px;border-radius:4px;font-size:.9em}pre code{background:none;padding:0;font-size:inherit}details{padding:16px 20px;border:1px solid #303a45;border-radius:8px;margin:20px 0}summary{cursor:pointer;color:#bdf364}details[open] summary{margin-bottom:16px}ul{padding-left:24px}.task-list{list-style:none;padding-left:0}.task-list li{margin:10px 0}strong{color:#eff4f9}input{accent-color:#bbf75b}@media(max-width:650px){main{margin:0;padding:20px 16px;border:0;border-radius:0}h2{font-size:23px}table{font-size:13px}td,th{padding:9px}pre{font-size:12px;padding:15px}}</style></head><body><main><div align="center">
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDEyODAgNDAwIiByb2xlPSJpbWciIGFyaWEtbGFiZWxsZWRieT0idGl0bGUgZGVzYyI+CiAgPHRpdGxlIGlkPSJ0aXRsZSI+RDNGQVVMVEgg4oCUIEhhY2tlciBhbmQgQ1RGIHBsYXllcjwvdGl0bGU+CiAgPGRlc2MgaWQ9ImRlc2MiPkhhY2sgVGhlIEJveCBhbmQgQ1RGIGNvbXBldGl0aW9ucy4gQnVpbGRpbmcgYSB0ZWFtIG9mIGhhY2tlcnMgd2hvIGxlYXJuLCBzb2x2ZSwgYW5kIGNvbXBldGUgdG9nZXRoZXIuPC9kZXNjPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiMxMDFiMjQiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwODBjMTEiLz48L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJhY2NlbnQiPjxzdG9wIHN0b3AtY29sb3I9IiNiYmY3NWIiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM0OGQ3ZGEiLz48L2xpbmVhckdyYWRpZW50PgogICAgPHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTTQwIDBIMFY0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNzc5NmFiIiBzdHJva2Utb3BhY2l0eT0iLjA3NSIvPjwvcGF0dGVybj4KICA8L2RlZnM+CiAgPHJlY3QgeD0iMSIgeT0iMSIgd2lkdGg9IjEyNzgiIGhlaWdodD0iMzk4IiByeD0iMTgiIGZpbGw9InVybCgjYmcpIiBzdHJva2U9IiMyODM2NDMiLz4KICA8cmVjdCB4PSIxIiB5PSIxIiB3aWR0aD0iMTI3OCIgaGVpZ2h0PSIzOTgiIHJ4PSIxOCIgZmlsbD0idXJsKCNncmlkKSIvPgogIDxwYXRoIGQ9Ik01NCAxSDEyMjYiIHN0cm9rZT0idXJsKCNhY2NlbnQpIiBzdHJva2Utd2lkdGg9IjMiLz4KICA8ZyBmb250LWZhbWlseT0iRGVqYVZ1IFNhbnMsIEFyaWFsLCBzYW5zLXNlcmlmIj4KICAgIDxyZWN0IHg9IjU2IiB5PSI0OSIgd2lkdGg9IjgiIGhlaWdodD0iOCIgcng9IjIiIGZpbGw9IiNiYmY3NWIiLz4KICAgIDx0ZXh0IHg9Ijc4IiB5PSI2MCIgZm9udC1zaXplPSIxNCIgbGV0dGVyLXNwYWNpbmc9IjMiIGZpbGw9IiNhOWJkY2IiPkhBQ0tFUiAvIENURiBQTEFZRVIgLyBURUFNIElOIEZPUk1BVElPTjwvdGV4dD4KICAgIDx0ZXh0IHg9IjUwIiB5PSIxNzAiIGZvbnQtc2l6ZT0iOTQiIGZvbnQtd2VpZ2h0PSI3MDAiIGxldHRlci1zcGFjaW5nPSItNSIgZmlsbD0iI2YxZjZmYSI+RDNGQVVMVEg8dHNwYW4gZmlsbD0iI2JiZjc1YiI+LjwvdHNwYW4+PC90ZXh0PgogICAgPHRleHQgeD0iNTciIHk9IjIyMSIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2MxY2RkNiI+RmluZCB0aGUgd2Vha25lc3MuIENhcHR1cmUgdGhlIGZsYWcuPC90ZXh0PgogICAgPHBhdGggZD0iTTU3IDI1M0g2NjAiIHN0cm9rZT0iIzJjM2M0NyIvPgogICAgPHRleHQgeD0iNTciIHk9IjI5MiIgZm9udC1zaXplPSIxNCIgbGV0dGVyLXNwYWNpbmc9IjMiIGZpbGw9IiM4ZGE0YjYiPkhBQ0sgVEhFIEJPWCArIENURiBDT01QRVRJVElPTlM8L3RleHQ+CiAgICA8dGV4dCB4PSI1NyIgeT0iMzM3IiBmb250LXNpemU9IjI5IiBmb250LXdlaWdodD0iNzAwIiBsZXR0ZXItc3BhY2luZz0iMiIgZmlsbD0iI2JiZjc1YiI+QlVJTERJTkcgVEhFIFRFQU0uPC90ZXh0PgogIDwvZz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDAwIDE5MCkiPgogICAgPGNpcmNsZSByPSIxMjciIGZpbGw9IiMwYTEyMTkiIHN0cm9rZT0iIzI1Mzk0NiIvPgogICAgPGNpcmNsZSByPSIxMDYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzQ3NjI2ZSIgc3Ryb2tlLWRhc2hhcnJheT0iMiAxMiIvPgogICAgPGNpcmNsZSByPSI4MyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMjY0NTUyIi8+CiAgICA8cGF0aCBkPSJNLTE1MSAwSC05OE05OCAwSDE1MU0wLTE1MVYtOThNMCA5OFYxNTEiIHN0cm9rZT0iIzYwODg5NyIvPgogICAgPHBhdGggZD0iTS00MyA3MlYtNzUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2JiZjc1YiIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICAgIDxwYXRoIGQ9Ik0tMzktNzFINTdMMjctMzBMNTcgMTBILTM5WiIgZmlsbD0iI2JiZjc1YiIvPgogICAgPHBhdGggZD0iTS0zOS0yOUgyN0w1NyAxMEgtMzlaIiBmaWxsPSIjNDhkN2RhIi8+CiAgICA8cGF0aCBkPSJNLTY1IDczSC0yMCIgc3Ryb2tlPSIjNjA4ODk3IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogICAgPGNpcmNsZSBjeD0iMCIgY3k9Ii0xMjciIHI9IjUiIGZpbGw9IiNiYmY3NWIiLz4KICAgIDxjaXJjbGUgY3g9IjEyNyIgY3k9IjAiIHI9IjQiIGZpbGw9IiM0OGQ3ZGEiLz4KICA8L2c+CiAgPHRleHQgeD0iMTAwMCIgeT0iMzU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iRGVqYVZ1IFNhbnMgTW9ubywgbW9ub3NwYWNlIiBmb250LXNpemU9IjEzIiBsZXR0ZXItc3BhY2luZz0iMyIgZmlsbD0iIzdkOWFhYSI+TEVBUk4gLyBCVUlMRCAvIENBUFRVUkU8L3RleHQ+Cjwvc3ZnPgo=" width="100%" alt="D3FAULTH — Hacker. CTF player. Building a team." />
 </div>
 
 <p align="center">
-  <a href="#captain"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzIiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAxMzIgMzAiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iQ0FQVEFJTiI+PHJlY3QgeD0iLjUiIHk9Ii41IiB3aWR0aD0iMTMxIiBoZWlnaHQ9IjI5IiByeD0iNSIgZmlsbD0iIzExMWMyNSIgc3Ryb2tlPSIjMzQ0NjUwIi8+PGNpcmNsZSBjeD0iMTciIGN5PSIxNSIgcj0iMyIgZmlsbD0iI2JiZjc1YiIvPjx0ZXh0IHg9IjcyLjAiIHk9IjE5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iRGVqYVZ1IFNhbnMsQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjEiIGZpbGw9IiNiYmY3NWIiPkNBUFRBSU48L3RleHQ+PC9zdmc+" height="30" alt="Explore CAPTAIN" /></a>
+  <a href="#about"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDIiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAxNDIgMzAiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iQ1RGIFBMQVlFUiI+PHJlY3QgeD0iLjUiIHk9Ii41IiB3aWR0aD0iMTQxIiBoZWlnaHQ9IjI5IiByeD0iNSIgZmlsbD0iIzExMWMyNSIgc3Ryb2tlPSIjMzQ0NjUwIi8+PGNpcmNsZSBjeD0iMTciIGN5PSIxNSIgcj0iMyIgZmlsbD0iI2JiZjc1YiIvPjx0ZXh0IHg9Ijc3LjAiIHk9IjE5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iRGVqYVZ1IFNhbnMsQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjEiIGZpbGw9IiNiYmY3NWIiPkNURiBQTEFZRVI8L3RleHQ+PC9zdmc+" height="30" alt="CTF player" /></a>
   &nbsp;
-  <a href="#focus"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOTAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAxOTAgMzAiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iQUkgKyBTRUNVUklUWSBMQUJTIj48cmVjdCB4PSIuNSIgeT0iLjUiIHdpZHRoPSIxODkiIGhlaWdodD0iMjkiIHJ4PSI1IiBmaWxsPSIjMTExYzI1IiBzdHJva2U9IiMzNDQ2NTAiLz48Y2lyY2xlIGN4PSIxNyIgY3k9IjE1IiByPSIzIiBmaWxsPSIjNDhkN2RhIi8+PHRleHQgeD0iMTAxLjAiIHk9IjE5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iRGVqYVZ1IFNhbnMsQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjEiIGZpbGw9IiM0OGQ3ZGEiPkFJICsgU0VDVVJJVFkgTEFCUzwvdGV4dD48L3N2Zz4=" height="30" alt="AI and security labs" /></a>
+  <a href="#hack-the-box"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjIiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAxNjIgMzAiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iSEFDSyBUSEUgQk9YIj48cmVjdCB4PSIuNSIgeT0iLjUiIHdpZHRoPSIxNjEiIGhlaWdodD0iMjkiIHJ4PSI1IiBmaWxsPSIjMTExYzI1IiBzdHJva2U9IiMzNDQ2NTAiLz48Y2lyY2xlIGN4PSIxNyIgY3k9IjE1IiByPSIzIiBmaWxsPSIjNDhkN2RhIi8+PHRleHQgeD0iODcuMCIgeT0iMTkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJEZWphVnUgU2FucyxBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNzAwIiBsZXR0ZXItc3BhY2luZz0iMSIgZmlsbD0iIzQ4ZDdkYSI+SEFDSyBUSEUgQk9YPC90ZXh0Pjwvc3ZnPg==" height="30" alt="Hack The Box" /></a>
   &nbsp;
-  <a href="#whats-next"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDIiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAxNDIgMzAiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUk9BRE1BUCI+PHJlY3QgeD0iLjUiIHk9Ii41IiB3aWR0aD0iMTQxIiBoZWlnaHQ9IjI5IiByeD0iNSIgZmlsbD0iIzExMWMyNSIgc3Ryb2tlPSIjMzQ0NjUwIi8+PGNpcmNsZSBjeD0iMTciIGN5PSIxNSIgcj0iMyIgZmlsbD0iI2I5YzhkNCIvPjx0ZXh0IHg9Ijc3LjAiIHk9IjE5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iRGVqYVZ1IFNhbnMsQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjEiIGZpbGw9IiNiOWM4ZDQiPlJPQURNQVA8L3RleHQ+PC9zdmc+" height="30" alt="Follow the roadmap" /></a>
+  <a href="#join-the-team"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzIiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAxNzIgMzAiIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iSk9JTiBUSEUgVEVBTSI+PHJlY3QgeD0iLjUiIHk9Ii41IiB3aWR0aD0iMTcxIiBoZWlnaHQ9IjI5IiByeD0iNSIgZmlsbD0iIzExMWMyNSIgc3Ryb2tlPSIjMzQ0NjUwIi8+PGNpcmNsZSBjeD0iMTciIGN5PSIxNSIgcj0iMyIgZmlsbD0iI2I5YzhkNCIvPjx0ZXh0IHg9IjkyLjAiIHk9IjE5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iRGVqYVZ1IFNhbnMsQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjEiIGZpbGw9IiNiOWM4ZDQiPkpPSU4gVEhFIFRFQU08L3RleHQ+PC9zdmc+" height="30" alt="Join the team" /></a>
 </p>
 
-<p align="center"><strong>Building CAPTAIN — a local AI assistant that turns objectives into actions.</strong><br />
-Voice and text · Linux automation · Authorized security labs</p>
+<p align="center"><strong>Find the weakness. Capture the flag. Grow together.</strong><br />
+Hacker · CTF player · Building a team</p>
 
 <hr />
 <h2 id="about">About</h2>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>profile <span class="op">=</span> {</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;identity&quot;</span>: <span class="st">&quot;D3FAULTH&quot;</span>,</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;flagship&quot;</span>: <span class="st">&quot;CAPTAIN&quot;</span>,</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;focus&quot;</span>:    [<span class="st">&quot;local AI&quot;</span>, <span class="st">&quot;voice control&quot;</span>, <span class="st">&quot;security labs&quot;</span>],</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;workflow&quot;</span>: [<span class="st">&quot;plan&quot;</span>, <span class="st">&quot;act&quot;</span>, <span class="st">&quot;verify&quot;</span>, <span class="st">&quot;report&quot;</span>],</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;building&quot;</span>: <span class="st">&quot;a public starter with private extensions&quot;</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;handle&quot;</span>:   <span class="st">&quot;D3FAULTH&quot;</span>,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;identity&quot;</span>: <span class="st">&quot;Hacker / CTF player&quot;</span>,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;arena&quot;</span>:    <span class="st">&quot;Hack The Box &amp; CTF competitions&quot;</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;mission&quot;</span>:  <span class="st">&quot;Build a team that learns, solves, and competes&quot;</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;status&quot;</span>:   <span class="st">&quot;Team in formation&quot;</span>,</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
-<p>I'm building tools that connect AI reasoning with practical work on
-Linux. My focus is voice-driven automation, repeatable lab experiments,
-and results that can be inspected and reproduced.</p>
-<p><strong>CAPTAIN by D3FAULTH</strong> is the flagship project. The aim
-is to give it an objective, let it work within a configured scope, and
-get back evidence of what happened. When context is missing, it can ask
-a question.</p>
-<h2 id="captain">CAPTAIN</h2>
-<p><strong>Your objective. A plan. Actions. Evidence.</strong></p>
-<p>CAPTAIN is a local voice and tool-using AI assistant for Linux,
-personal automation, and authorized security labs.</p>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;">In the current alpha</th>
-<th style="text-align: left;">Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Voice and text interaction</td>
-<td style="text-align: left;">Give objectives and answer clarifying
-questions.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Configurable model backends</td>
-<td style="text-align: left;">Use Ollama or an explicitly selected API
-backend.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">File and command tools</td>
-<td style="text-align: left;">Work in a configured workspace and
-execution environment.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Sessions and reports</td>
-<td style="text-align: left;">Keep local task history and review tool
-results.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Private extensions</td>
-<td style="text-align: left;">Connect separately installed specialist
-modules.</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Status:</strong> <code>0.2.0a1</code> · Private development
-alpha · Laptop validation pending.</p>
-<p>The code includes these features; end-to-end voice, model, and
-desktop behavior still needs validation on the target laptop. A public
-release will follow reproducible demonstrations and release review.</p>
-<details>
-<summary><strong>The public / private plan</strong></summary>
-
-<p>The planned public starter will run without private modules. It will
-include setup instructions, a reproducible example, and documented
-limitations.</p>
-<p>Specialized tools and experimental integrations stay in separate
-private repositories. Planned <strong>CAPTAIN Labs</strong> material
-will show sanitized demonstrations, methods, and observed results.</p>
-<p>Local inference is the intended default. Hosted model backends remain
-optional and have different data-sharing implications.</p>
-</details>
-
-<h2 id="focus">Focus</h2>
+<p>I'm <strong>D3FAULTH</strong> — a hacker focused on CTFs and Hack The
+Box. I like figuring out how systems work, finding the detail everyone
+else missed, and turning a dead end into the next lead.</p>
+<p>I'm building a team of hackers who want to solve difficult
+challenges, exchange ideas, write useful tools, and improve together.
+The goal is to make <strong>D3FAULTH</strong> known through the quality
+of our work: solid solves, useful releases, and clear explanations.</p>
+<h2 id="hack-the-box">Hack The Box</h2>
+<p><strong>The handle: <code>D3FAULTH</code>. The focus: understand the
+solve.</strong></p>
+<p>The team I want to build will work through lab machines and challenge
+categories, compare approaches, and explain the reasoning behind each
+step. Finding a flag matters; being able to reproduce and explain the
+path matters too.</p>
+<ul>
+<li>Practice enumeration and follow the evidence.</li>
+<li>Compare approaches when a path stalls.</li>
+<li>Build small scripts that make repeatable work easier.</li>
+<li>Review solves together and turn lessons into better habits.</li>
+</ul>
+<h2 id="building-the-team">Building the team</h2>
+<p><strong>Status: forming a CTF team.</strong></p>
+<p>I'm looking for people who enjoy investigating, communicate what they
+find, and keep working when the first idea fails. Bring your strongest
+area — or an area you're committed to learning.</p>
 <table>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Area</th>
-<th style="text-align: left;">What I'm building toward</th>
+<th style="text-align: left;">What we can work on together</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Local AI</strong></td>
-<td style="text-align: left;">Useful workflows with configurable models
-and local session memory.</td>
+<td style="text-align: left;"><strong>Web</strong></td>
+<td style="text-align: left;">Application logic, authentication
+challenges, and web vulnerabilities.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Voice control</strong></td>
-<td style="text-align: left;">Spoken objectives, clarification, and task
-summaries.</td>
+<td style="text-align: left;"><strong>Systems</strong></td>
+<td style="text-align: left;">Linux and Windows lab enumeration and
+privilege escalation.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Linux automation</strong></td>
-<td style="text-align: left;">Practical file, terminal, and desktop
-workflows.</td>
+<td style="text-align: left;"><strong>Reverse engineering &amp;
+pwn</strong></td>
+<td style="text-align: left;">Program behavior, debugging, and binary
+challenges.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Security labs</strong></td>
-<td style="text-align: left;">Repeatable experiments in authorized
-environments.</td>
+<td style="text-align: left;"><strong>Cryptography</strong></td>
+<td style="text-align: left;">Ciphers, implementation mistakes, and
+mathematical puzzles.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Reproducible work</strong></td>
-<td style="text-align: left;">Clear setup, observed results, and
-documented failures.</td>
+<td style="text-align: left;"><strong>Forensics &amp;
+OSINT</strong></td>
+<td style="text-align: left;">Artifacts, packet captures, hidden clues,
+and evidence.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Tool building</strong></td>
+<td style="text-align: left;">Python, Bash, automation, and reusable
+challenge helpers.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="project-stack">Project stack</h2>
-<p>These technologies are used in CAPTAIN's current implementation or
-supported integrations.</p>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Layer</th>
-<th style="text-align: left;">Technologies</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Core</td>
-<td style="text-align: left;">Python · Linux · SQLite</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Models</td>
-<td style="text-align: left;">Ollama · OpenAI Responses · Compatible
-Chat Completions servers</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Speech</td>
-<td style="text-align: left;">Vosk · eSpeak NG</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Execution</td>
-<td style="text-align: left;">Docker · Configured host commands ·
-Optional X11 tools</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Development</td>
-<td style="text-align: left;">Git · GitHub Actions · Python
-unittest</td>
-</tr>
-</tbody>
-</table>
-<h2 id="whats-next">What's next</h2>
-<ul class="task-list">
-<li><label><input type="checkbox" />Validate the first complete workflow
-on the target laptop.</label></li>
-<li><label><input type="checkbox" />Record a reproducible demonstration
-with its results and limitations.</label></li>
-<li><label><input type="checkbox" />Prepare a standalone public starter
-and a clear quickstart.</label></li>
-<li><label><input type="checkbox" />Publish sanitized lab examples and
-improve them with tester feedback.</label></li>
+<p>These are areas for the team to develop together. Curiosity,
+consistency, and clear communication are the starting point.</p>
+<h2 id="how-well-work">How we'll work</h2>
+<ol type="1">
+<li><strong>Pick a challenge.</strong> Agree on the objective and divide
+the investigation.</li>
+<li><strong>Keep useful notes.</strong> Record commands, findings,
+failed ideas, and the next lead.</li>
+<li><strong>Share the reasoning.</strong> Help each other understand why
+an approach works.</li>
+<li><strong>Review the solve.</strong> Reproduce the result and identify
+what we learned.</li>
+<li><strong>Publish when allowed.</strong> Release selected tools and
+writeups in line with challenge rules.</li>
+</ol>
+<p>Our work is centered on CTFs, Hack The Box, and authorized labs.</p>
+<h2 id="what-youll-find-here">What you'll find here</h2>
+<p>This GitHub is where I'll share selected work as it's ready:</p>
+<ul>
+<li><strong>Tools and scripts</strong> built around practical lab
+needs.</li>
+<li><strong>CTF writeups</strong> explaining the reasoning, attempts,
+and final solution.</li>
+<li><strong>Learning notes</strong> that make useful techniques easier
+to revisit.</li>
+<li><strong>Team projects</strong> developed through shared practice and
+competitions.</li>
 </ul>
-<p>The next milestone is a demonstration someone else can reproduce from
-a fresh setup.</p>
+<p>Team notes, ongoing solves, and selected tools will stay private.
+Public releases will include what people need to use them.</p>
+<h2 id="join-the-team">Join the team</h2>
+<p>Want to solve boxes and compete with us? <strong><a
+href="https://github.com/d3faulth-private/README.md/issues/new?title=Team%20interest">Open
+a team-interest issue</a></strong> and introduce yourself:</p>
+<ul>
+<li>Your handle and the areas you enjoy.</li>
+<li>What you're learning or a challenge you enjoyed solving.</li>
+<li>Your timezone and usual availability.</li>
+<li>An optional public HTB or GitHub profile.</li>
+</ul>
+<p>Issue introductions are public; a handle is enough. A dedicated team
+name, roster, and practice schedule will be shared as the team takes
+shape.</p>
 <hr />
 <p align="center">
-  <strong>Follow D3FAULTH for CAPTAIN development, demonstrations, and release updates.</strong><br />
-  <a href="https://github.com/d3faulth-private">GitHub profile</a>
+  <strong>D3FAULTH — learn together, build together, capture flags together.</strong><br />
+  <a href="https://github.com/d3faulth-private">Follow on GitHub</a>
+  ·
+  <a href="https://github.com/d3faulth-private/README.md/issues">Team introductions</a>
 </p>
 
 <div align="center">
-  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgwIiBoZWlnaHQ9Ijk2IiB2aWV3Qm94PSIwIDAgMTI4MCA5NiIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIj4KICA8dGl0bGUgaWQ9InRpdGxlIj5EM0ZBVUxUSCDigJQgQnVpbGQuIFZlcmlmeS4gRG9jdW1lbnQuPC90aXRsZT4KICA8cmVjdCB3aWR0aD0iMTI4MCIgaGVpZ2h0PSI5NiIgcng9IjEyIiBmaWxsPSIjMGMxMzFiIi8+CiAgPHBhdGggZD0iTTI0IDFIMTI1NiIgc3Ryb2tlPSIjMmM0MTRlIi8+CiAgPHRleHQgeD0iMzYiIHk9IjU3IiBmb250LWZhbWlseT0iRGVqYVZ1IFNhbnMsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iNzAwIiBsZXR0ZXItc3BhY2luZz0iMiIgZmlsbD0iI2JiZjc1YiI+RDNGQVVMVEg8L3RleHQ+CiAgPHRleHQgeD0iMTI0NCIgeT0iNTUiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtZmFtaWx5PSJEZWphVnUgU2FucyBNb25vLCBtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTUiIGxldHRlci1zcGFjaW5nPSIzIiBmaWxsPSIjYTRiNWMzIj5CVUlMRC4gVkVSSUZZLiBET0NVTUVOVC48L3RleHQ+Cjwvc3ZnPgo=" width="100%" alt="D3FAULTH — Build. Verify. Document." />
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgwIiBoZWlnaHQ9Ijk2IiB2aWV3Qm94PSIwIDAgMTI4MCA5NiIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIj4KICA8dGl0bGUgaWQ9InRpdGxlIj5EM0ZBVUxUSCDigJQgTGVhcm4uIEJ1aWxkLiBDYXB0dXJlLjwvdGl0bGU+CiAgPHJlY3Qgd2lkdGg9IjEyODAiIGhlaWdodD0iOTYiIHJ4PSIxMiIgZmlsbD0iIzBjMTMxYiIvPgogIDxwYXRoIGQ9Ik0yNCAxSDEyNTYiIHN0cm9rZT0iIzJjNDE0ZSIvPgogIDx0ZXh0IHg9IjM2IiB5PSI1NyIgZm9udC1mYW1pbHk9IkRlamFWdSBTYW5zLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9IjcwMCIgbGV0dGVyLXNwYWNpbmc9IjIiIGZpbGw9IiNiYmY3NWIiPkQzRkFVTFRIPC90ZXh0PgogIDx0ZXh0IHg9IjEyNDQiIHk9IjU1IiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LWZhbWlseT0iRGVqYVZ1IFNhbnMgTW9ubywgbW9ub3NwYWNlIiBmb250LXNpemU9IjE1IiBsZXR0ZXItc3BhY2luZz0iMyIgZmlsbD0iI2E0YjVjMyI+TEVBUk4uIEJVSUxELiBDQVBUVVJFLjwvdGV4dD4KPC9zdmc+Cg==" width="100%" alt="D3FAULTH — Learn. Build. Capture." />
 </div>
 </main></body></html>

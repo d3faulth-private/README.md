@@ -1,17 +1,17 @@
 <div align="center">
-  <img src="assets/header.svg" width="100%" alt="D3FAULTH — Local AI. Voice control. Security labs." />
+  <img src="assets/header.svg" width="100%" alt="D3FAULTH — Hacker. CTF player. Building a team." />
 </div>
 
 <p align="center">
-  <a href="#captain"><img src="assets/badge-captain.svg" height="30" alt="Explore CAPTAIN" /></a>
+  <a href="#about"><img src="assets/badge-ctf.svg" height="30" alt="CTF player" /></a>
   &nbsp;
-  <a href="#focus"><img src="assets/badge-focus.svg" height="30" alt="AI and security labs" /></a>
+  <a href="#hack-the-box"><img src="assets/badge-htb.svg" height="30" alt="Hack The Box" /></a>
   &nbsp;
-  <a href="#whats-next"><img src="assets/badge-roadmap.svg" height="30" alt="Follow the roadmap" /></a>
+  <a href="#join-the-team"><img src="assets/badge-team.svg" height="30" alt="Join the team" /></a>
 </p>
 
-<p align="center"><strong>Building CAPTAIN — a local AI assistant that turns objectives into actions.</strong><br />
-Voice and text · Linux automation · Authorized security labs</p>
+<p align="center"><strong>Find the weakness. Capture the flag. Grow together.</strong><br />
+Hacker · CTF player · Building a team</p>
 
 ---
 
@@ -19,85 +19,87 @@ Voice and text · Linux automation · Authorized security labs</p>
 
 ```python
 profile = {
-    "identity": "D3FAULTH",
-    "flagship": "CAPTAIN",
-    "focus":    ["local AI", "voice control", "security labs"],
-    "workflow": ["plan", "act", "verify", "report"],
-    "building": "a public starter with private extensions",
+    "handle":   "D3FAULTH",
+    "identity": "Hacker / CTF player",
+    "arena":    "Hack The Box & CTF competitions",
+    "mission":  "Build a team that learns, solves, and competes",
+    "status":   "Team in formation",
 }
 ```
 
-I'm building tools that connect AI reasoning with practical work on Linux. My focus is voice-driven automation, repeatable lab experiments, and results that can be inspected and reproduced.
+I'm **D3FAULTH** — a hacker focused on CTFs and Hack The Box. I like figuring out how systems work, finding the detail everyone else missed, and turning a dead end into the next lead.
 
-**CAPTAIN by D3FAULTH** is the flagship project. The aim is to give it an objective, let it work within a configured scope, and get back evidence of what happened. When context is missing, it can ask a question.
+I'm building a team of hackers who want to solve difficult challenges, exchange ideas, write useful tools, and improve together. The goal is to make **D3FAULTH** known through the quality of our work: solid solves, useful releases, and clear explanations.
 
-## CAPTAIN
+## Hack The Box
 
-**Your objective. A plan. Actions. Evidence.**
+**The handle: `D3FAULTH`. The focus: understand the solve.**
 
-CAPTAIN is a local voice and tool-using AI assistant for Linux, personal automation, and authorized security labs.
+The team I want to build will work through lab machines and challenge categories, compare approaches, and explain the reasoning behind each step. Finding a flag matters; being able to reproduce and explain the path matters too.
 
-| In the current alpha | Purpose |
+- Practice enumeration and follow the evidence.
+- Compare approaches when a path stalls.
+- Build small scripts that make repeatable work easier.
+- Review solves together and turn lessons into better habits.
+
+## Building the team
+
+**Status: forming a CTF team.**
+
+I'm looking for people who enjoy investigating, communicate what they find, and keep working when the first idea fails. Bring your strongest area — or an area you're committed to learning.
+
+| Area | What we can work on together |
 | :--- | :--- |
-| Voice and text interaction | Give objectives and answer clarifying questions. |
-| Configurable model backends | Use Ollama or an explicitly selected API backend. |
-| File and command tools | Work in a configured workspace and execution environment. |
-| Sessions and reports | Keep local task history and review tool results. |
-| Private extensions | Connect separately installed specialist modules. |
+| **Web** | Application logic, authentication challenges, and web vulnerabilities. |
+| **Systems** | Linux and Windows lab enumeration and privilege escalation. |
+| **Reverse engineering & pwn** | Program behavior, debugging, and binary challenges. |
+| **Cryptography** | Ciphers, implementation mistakes, and mathematical puzzles. |
+| **Forensics & OSINT** | Artifacts, packet captures, hidden clues, and evidence. |
+| **Tool building** | Python, Bash, automation, and reusable challenge helpers. |
 
-**Status:** `0.2.0a1` · Private development alpha · Laptop validation pending.
+These are areas for the team to develop together. Curiosity, consistency, and clear communication are the starting point.
 
-The code includes these features; end-to-end voice, model, and desktop behavior still needs validation on the target laptop. A public release will follow reproducible demonstrations and release review.
+## How we'll work
 
-<details>
-<summary><strong>The public / private plan</strong></summary>
+1. **Pick a challenge.** Agree on the objective and divide the investigation.
+2. **Keep useful notes.** Record commands, findings, failed ideas, and the next lead.
+3. **Share the reasoning.** Help each other understand why an approach works.
+4. **Review the solve.** Reproduce the result and identify what we learned.
+5. **Publish when allowed.** Release selected tools and writeups in line with challenge rules.
 
-The planned public starter will run without private modules. It will include setup instructions, a reproducible example, and documented limitations.
+Our work is centered on CTFs, Hack The Box, and authorized labs.
 
-Specialized tools and experimental integrations stay in separate private repositories. Planned **CAPTAIN Labs** material will show sanitized demonstrations, methods, and observed results.
+## What you'll find here
 
-Local inference is the intended default. Hosted model backends remain optional and have different data-sharing implications.
+This GitHub is where I'll share selected work as it's ready:
 
-</details>
+- **Tools and scripts** built around practical lab needs.
+- **CTF writeups** explaining the reasoning, attempts, and final solution.
+- **Learning notes** that make useful techniques easier to revisit.
+- **Team projects** developed through shared practice and competitions.
 
-## Focus
+Team notes, ongoing solves, and selected tools will stay private. Public releases will include what people need to use them.
 
-| Area | What I'm building toward |
-| :--- | :--- |
-| **Local AI** | Useful workflows with configurable models and local session memory. |
-| **Voice control** | Spoken objectives, clarification, and task summaries. |
-| **Linux automation** | Practical file, terminal, and desktop workflows. |
-| **Security labs** | Repeatable experiments in authorized environments. |
-| **Reproducible work** | Clear setup, observed results, and documented failures. |
+## Join the team
 
-## Project stack
+Want to solve boxes and compete with us? **[Open a team-interest issue](https://github.com/d3faulth-private/README.md/issues/new?title=Team%20interest)** and introduce yourself:
 
-These technologies are used in CAPTAIN's current implementation or supported integrations.
+- Your handle and the areas you enjoy.
+- What you're learning or a challenge you enjoyed solving.
+- Your timezone and usual availability.
+- An optional public HTB or GitHub profile.
 
-| Layer | Technologies |
-| :--- | :--- |
-| Core | Python · Linux · SQLite |
-| Models | Ollama · OpenAI Responses · Compatible Chat Completions servers |
-| Speech | Vosk · eSpeak NG |
-| Execution | Docker · Configured host commands · Optional X11 tools |
-| Development | Git · GitHub Actions · Python unittest |
-
-## What's next
-
-- [ ] Validate the first complete workflow on the target laptop.
-- [ ] Record a reproducible demonstration with its results and limitations.
-- [ ] Prepare a standalone public starter and a clear quickstart.
-- [ ] Publish sanitized lab examples and improve them with tester feedback.
-
-The next milestone is a demonstration someone else can reproduce from a fresh setup.
+Issue introductions are public; a handle is enough. A dedicated team name, roster, and practice schedule will be shared as the team takes shape.
 
 ---
 
 <p align="center">
-  <strong>Follow D3FAULTH for CAPTAIN development, demonstrations, and release updates.</strong><br />
-  <a href="https://github.com/d3faulth-private">GitHub profile</a>
+  <strong>D3FAULTH — learn together, build together, capture flags together.</strong><br />
+  <a href="https://github.com/d3faulth-private">Follow on GitHub</a>
+  ·
+  <a href="https://github.com/d3faulth-private/README.md/issues">Team introductions</a>
 </p>
 
 <div align="center">
-  <img src="assets/footer.svg" width="100%" alt="D3FAULTH — Build. Verify. Document." />
+  <img src="assets/footer.svg" width="100%" alt="D3FAULTH — Learn. Build. Capture." />
 </div>

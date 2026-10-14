@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
+  <title id="title">D3FAULTH — CAPTAIN</title>
+  <desc id="desc">Local AI, voice control, and security labs. Building CAPTAIN by D3FAULTH.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101b24"/><stop offset="1" stop-color="#080c11"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#bbf75b"/><stop offset="1" stop-color="#48d7da"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#7796ab" stroke-opacity=".075"/></pattern>
+  </defs>
+  <rect x="1" y="1" width="1278" height="398" rx="18" fill="url(#bg)" stroke="#283643"/>
+  <rect x="1" y="1" width="1278" height="398" rx="18" fill="url(#grid)"/>
+  <path d="M54 1H1226" stroke="url(#accent)" stroke-width="3"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <rect x="56" y="49" width="8" height="8" rx="2" fill="#bbf75b"/>
+    <text x="78" y="60" font-size="14" letter-spacing="3" fill="#a9bdcb">INDEPENDENT PROJECTS / IN DEVELOPMENT</text>
+    <text x="50" y="170" font-size="94" font-weight="700" letter-spacing="-5" fill="#f1f6fa">D3FAULTH<tspan fill="#bbf75b">.</tspan></text>
+    <text x="57" y="221" font-size="24" fill="#c1cdd6">Local AI. Voice control. Security labs.</text>
+    <path d="M57 253H660" stroke="#2c3c47"/>
+    <text x="57" y="292" font-size="14" letter-spacing="3" fill="#8da4b6">FLAGSHIP PROJECT</text>
+    <text x="57" y="337" font-size="31" font-weight="700" letter-spacing="3" fill="#bbf75b">CAPTAIN</text>
+    <text x="249" y="335" font-size="17" fill="#a9bdcb">An objective. A plan. Evidence.</text>
+  </g>
+  <g transform="translate(1000 190)">
+    <circle r="127" fill="#0a1219" stroke="#253946"/>
+    <circle r="106" fill="none" stroke="#47626e" stroke-dasharray="2 12"/>
+    <circle r="83" fill="none" stroke="#264552"/>
+    <path d="M-151 0H-98M98 0H151M0-151V-98M0 98V151" stroke="#608897"/>
+    <path d="M0-76L56 53L0 28L-56 53Z" fill="#bbf75b"/>
+    <path d="M0-76V28L56 53Z" fill="#48d7da"/>
+    <circle cx="0" cy="-127" r="5" fill="#bbf75b"/>
+    <circle cx="127" cy="0" r="4" fill="#48d7da"/>
+  </g>
+  <text x="1000" y="357" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="13" letter-spacing="3" fill="#7d9aaa">PLAN / ACT / VERIFY</text>
+</svg>

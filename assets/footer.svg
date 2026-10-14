@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="96" viewBox="0 0 1280 96" role="img" aria-labelledby="title">
+  <title id="title">D3FAULTH — Build. Verify. Document.</title>
+  <rect width="1280" height="96" rx="12" fill="#0c131b"/>
+  <path d="M24 1H1256" stroke="#2c414e"/>
+  <text x="36" y="57" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#bbf75b">D3FAULTH</text>
+  <text x="1244" y="55" text-anchor="end" font-family="DejaVu Sans Mono, monospace" font-size="15" letter-spacing="3" fill="#a4b5c3">BUILD. VERIFY. DOCUMENT.</text>
+</svg>

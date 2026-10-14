@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/header.svg" width="100%" alt="D3FAULTH — Hacker · Security Research · Private Team" />
+  <img src="assets/header.svg" width="100%" alt="D3FAULTH — Hackers · Shared Knowledge · Teamwork" />
 </div>
 
 <p align="center">
@@ -18,18 +18,18 @@
 ```python
 profile = {
     "handle"   : "D3FAULTH",
-    "role"     : "Hacker · Security Research",
-    "focus"    : "Authorized real-world offensive security",
-    "building" : "Private AI · Private security tools",
+    "role"     : "Hacker · Team Builder",
+    "focus"    : "Shared knowledge · Practical problem-solving",
+    "building" : "Private tools · Shared workflows",
     "team_os"  : "Anonymous OS · Members-only access planned",
     "training" : "Hack The Box",
-    "team"     : "Building a private security team",
+    "team"     : "Bringing hackers together",
 }
 ```
 
-I'm **D3FAULTH** — a hacker building a private team for authorized real-world security assessments, vulnerability research, and defensive engineering. The direction is our own **private AI**, **private security tools**, and **Anonymous OS** for team members.
+I'm **D3FAULTH** — a hacker bringing other hackers together to share what we know, work through difficult problems, and make tasks easier for each other. We combine our skills, exchange useful information, and build tools that reduce repetitive work.
 
-**Hack The Box** stays part of our training. This GitHub will showcase selected tools, research, and writeups, while internal tooling and team work stay private.
+**Hack The Box** is part of our shared practice. We're building **private tools** and **Anonymous OS** for team members, while sharing selected tools, research, and writeups here.
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
@@ -65,14 +65,12 @@ I'm **D3FAULTH** — a hacker building a private team for authorized real-world 
 <img src="assets/divider.svg" width="100%" alt="" />
 
 
-## 🛡️ Private Team Platform
+## 🛡️ Team Tools & Anonymous OS
 
-![Private AI](assets/badges/private-ai.svg)
 ![Private Tools](assets/badges/private-tools.svg)
 ![Anonymous OS](assets/badges/anonymous-os.svg)
 
-- **Private AI:** a team-controlled assistant for research, automation, and evidence analysis.
-- **Private tools:** custom tooling for authorized assessments, attack simulation, and security validation.
+- **Private tools:** shared scripts and utilities that simplify research, automate repetitive steps, and help teammates solve problems together.
 - **Anonymous OS:** our custom amnesic security workstation, with privacy and security controls built into its design. Distribution is intended for **team members only**.
 
 **In development.** These are the team's planned capabilities; release readiness and security validation remain work in progress.
@@ -83,9 +81,11 @@ I'm **D3FAULTH** — a hacker building a private team for authorized real-world 
 
 ## 🏴 Building a Team
 
-**Team in formation — private research, authorized assessments, and shared infrastructure.**
+**Team in formation — shared knowledge, combined skills, easier tasks.**
 
-Looking for hackers and builders interested in offensive security, reverse engineering, operating-system hardening, AI, and tool development. We'll train on Hack The Box, develop our private platform, and apply that work to systems we own or have permission to test.
+We're bringing hackers together to exchange ideas, compare methods, share useful information, and help each other get unstuck. Everyone brings something different; working together lets us learn faster and avoid repeating the same work.
+
+We'll practice on Hack The Box, build shared tools, and collaborate on research in systems we own or have permission to test.
 
 **[Interested in joining? Introduce yourself →](https://github.com/d3faulth-private/README.md/issues/new?title=Team%20interest)**  
 Share your handle, interests, and usual availability. Introductions through GitHub Issues are public.
@@ -111,5 +111,5 @@ Share your handle, interests, and usual availability. Introductions through GitH
 <img src="assets/divider.svg" width="100%" alt="" />
 
 <div align="center">
-  <img src="assets/footer.svg" width="100%" alt="D3FAULTH — Research. Build. Secure." />
+  <img src="assets/footer.svg" width="100%" alt="D3FAULTH — Share. Build. Solve." />
 </div>

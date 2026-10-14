@@ -1,10 +1,10 @@
 # Profile maintenance
 
-This profile presents D3FAULTH as a hacker building a private security team for authorized real-world assessments and research. Hack The Box is retained as a training platform.
+This profile presents D3FAULTH as a hacker bringing hackers together to share knowledge, combine skills, and make tasks easier. Hack The Box remains a shared practice platform; real-world research is scoped to owned or authorized systems.
 
 ## Team platform
 
-The README describes private AI, private assessment and attack-simulation tools, and Anonymous OS as the team's planned platform. Anonymous OS is intended for members-only distribution, with privacy and security controls built into its design. These are development goals, not verified claims of completed deployments or security guarantees.
+The README describes private shared tools, reusable workflows, and Anonymous OS as the team's planned platform. Anonymous OS is intended for members-only distribution, with privacy and security controls built into its design. These are development goals, not verified claims of completed deployments or security guarantees.
 
 Do not publish internal code, private research data, credentials, or membership information through this profile.
 

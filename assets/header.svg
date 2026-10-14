@@ -1,34 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
-  <title id="title">D3FAULTH — Hacker and CTF player</title>
-  <desc id="desc">Hack The Box and CTF competitions. Building a team of hackers who learn, solve, and compete together.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101b24"/><stop offset="1" stop-color="#080c11"/></linearGradient>
-    <linearGradient id="accent"><stop stop-color="#bbf75b"/><stop offset="1" stop-color="#48d7da"/></linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#7796ab" stroke-opacity=".075"/></pattern>
-  </defs>
-  <rect x="1" y="1" width="1278" height="398" rx="18" fill="url(#bg)" stroke="#283643"/>
-  <rect x="1" y="1" width="1278" height="398" rx="18" fill="url(#grid)"/>
-  <path d="M54 1H1226" stroke="url(#accent)" stroke-width="3"/>
-  <g font-family="DejaVu Sans, Arial, sans-serif">
-    <rect x="56" y="49" width="8" height="8" rx="2" fill="#bbf75b"/>
-    <text x="78" y="60" font-size="14" letter-spacing="3" fill="#a9bdcb">HACKER / CTF PLAYER / TEAM IN FORMATION</text>
-    <text x="50" y="170" font-size="94" font-weight="700" letter-spacing="-5" fill="#f1f6fa">D3FAULTH<tspan fill="#bbf75b">.</tspan></text>
-    <text x="57" y="221" font-size="24" fill="#c1cdd6">Find the weakness. Capture the flag.</text>
-    <path d="M57 253H660" stroke="#2c3c47"/>
-    <text x="57" y="292" font-size="14" letter-spacing="3" fill="#8da4b6">HACK THE BOX + CTF COMPETITIONS</text>
-    <text x="57" y="337" font-size="29" font-weight="700" letter-spacing="2" fill="#bbf75b">BUILDING THE TEAM.</text>
-  </g>
-  <g transform="translate(1000 190)">
-    <circle r="127" fill="#0a1219" stroke="#253946"/>
-    <circle r="106" fill="none" stroke="#47626e" stroke-dasharray="2 12"/>
-    <circle r="83" fill="none" stroke="#264552"/>
-    <path d="M-151 0H-98M98 0H151M0-151V-98M0 98V151" stroke="#608897"/>
-    <path d="M-43 72V-75" fill="none" stroke="#bbf75b" stroke-width="8" stroke-linecap="round"/>
-    <path d="M-39-71H57L27-30L57 10H-39Z" fill="#bbf75b"/>
-    <path d="M-39-29H27L57 10H-39Z" fill="#48d7da"/>
-    <path d="M-65 73H-20" stroke="#608897" stroke-width="4" stroke-linecap="round"/>
-    <circle cx="0" cy="-127" r="5" fill="#bbf75b"/>
-    <circle cx="127" cy="0" r="4" fill="#48d7da"/>
-  </g>
-  <text x="1000" y="357" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="13" letter-spacing="3" fill="#7d9aaa">LEARN / BUILD / CAPTURE</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-labelledby="title desc">
+<title id="title">D3FAULTH</title><desc id="desc">Hacker. CTF player. Building a team for Hack The Box and competitions.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset=".5" stop-color="#161b27"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+<linearGradient id="line"><stop stop-color="#7aa2f7" stop-opacity="0"/><stop offset=".3" stop-color="#7aa2f7"/><stop offset=".7" stop-color="#bb9af7"/><stop offset="1" stop-color="#bb9af7" stop-opacity="0"/></linearGradient>
+<pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse"><circle cx="20" cy="20" r="1" fill="#7aa2f7" opacity=".12"/></pattern>
+<filter id="glow" x="-.2" y="-.4" width="1.4" height="1.8"><feGaussianBlur stdDeviation="2.3"/></filter>
+</defs>
+<style>.cursor{animation:pulse 3s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.25}50%{opacity:.9}}@media(prefers-reduced-motion:reduce){.cursor{animation:none}}</style>
+<rect width="900" height="200" fill="url(#bg)"/><rect width="900" height="200" fill="url(#dots)"/>
+<circle cx="78" cy="100" r="53" fill="#7aa2f7" opacity=".045"/><circle cx="78" cy="100" r="31" fill="#7aa2f7" opacity=".045"/>
+<circle cx="822" cy="100" r="53" fill="#bb9af7" opacity=".045"/><circle cx="822" cy="100" r="31" fill="#bb9af7" opacity=".045"/>
+<g font-family="DejaVu Sans,Arial,sans-serif" text-anchor="middle">
+<text x="450" y="87" font-size="43" font-weight="700" letter-spacing="6" fill="#7aa2f7" opacity=".35" filter="url(#glow)">D3FAULTH</text>
+<text x="450" y="87" font-size="43" font-weight="700" letter-spacing="6" fill="#c0caf5">D3FAULTH</text>
+<rect x="170" y="106" width="560" height="1.5" fill="url(#line)"/>
+<text x="450" y="136" font-size="14" letter-spacing="2.5" fill="#7aa2f7">HACKER · CTF PLAYER · BUILDING A TEAM</text>
+<text x="450" y="166" font-family="DejaVu Sans Mono,monospace" font-size="11" fill="#6f7ba6">Hack The Box · Security Research · Tools · Collaboration</text>
+</g>
+<path class="cursor" d="M64 90L77 100L64 110M83 110H96" fill="none" stroke="#7aa2f7" stroke-width="2"/>
+<path class="cursor" d="M810 111V85M812 87H833L826 96L833 104H812" fill="none" stroke="#bb9af7" stroke-width="2"/>
 </svg>

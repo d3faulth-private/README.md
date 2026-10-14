@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/header.svg" width="100%" alt="D3FAULTH — Hacker · CTF Player · Building a Team" />
+  <img src="assets/header.svg" width="100%" alt="D3FAULTH — Hacker · Security Research · Private Team" />
 </div>
 
 <p align="center">
@@ -17,18 +17,19 @@
 
 ```python
 profile = {
-    "handle"  : "D3FAULTH",
-    "role"    : "Hacker · CTF Player",
-    "arena"   : "Hack The Box · CTF competitions",
-    "focus"   : "Security research · Tool building · Collaboration",
-    "team"    : "Building a crew of curious, committed hackers",
-    "mission" : "Learn together. Build together. Capture flags.",
+    "handle"   : "D3FAULTH",
+    "role"     : "Hacker · Security Research",
+    "focus"    : "Authorized real-world offensive security",
+    "building" : "Private AI · Private security tools",
+    "team_os"  : "Anonymous OS · Members-only access planned",
+    "training" : "Hack The Box",
+    "team"     : "Building a private security team",
 }
 ```
 
-I'm **D3FAULTH** — a hacker and CTF player bringing together people who enjoy breaking down difficult challenges, finding the overlooked detail, and building tools that make the next solve better.
+I'm **D3FAULTH** — a hacker building a private team for authorized real-world security assessments, vulnerability research, and defensive engineering. The direction is our own **private AI**, **private security tools**, and **Anonymous OS** for team members.
 
-This GitHub will showcase selected **tools, scripts, and writeups**. Team notes, ongoing solves, and selected tooling stay private. The goal: build a name through work people can learn from and use.
+**Hack The Box** stays part of our training. This GitHub will showcase selected tools, research, and writeups, while internal tooling and team work stay private.
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
@@ -52,7 +53,7 @@ This GitHub will showcase selected **tools, scripts, and writeups**. Team notes,
 ![Burp Suite](assets/badges/burp.svg)
 ![Wireshark](assets/badges/wireshark.svg)
 
-**CTF Interests**
+**Research Interests**
 
 ![Web](assets/badges/web.svg)
 ![Reverse Engineering](assets/badges/reversing.svg)
@@ -63,13 +64,28 @@ This GitHub will showcase selected **tools, scripts, and writeups**. Team notes,
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
+
+## 🛡️ Private Team Platform
+
+![Private AI](assets/badges/private-ai.svg)
+![Private Tools](assets/badges/private-tools.svg)
+![Anonymous OS](assets/badges/anonymous-os.svg)
+
+- **Private AI:** a team-controlled assistant for research, automation, and evidence analysis.
+- **Private tools:** custom tooling for authorized assessments, attack simulation, and security validation.
+- **Anonymous OS:** our custom amnesic security workstation, with privacy and security controls built into its design. Distribution is intended for **team members only**.
+
+**In development.** These are the team's planned capabilities; release readiness and security validation remain work in progress.
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
 <a id="building-a-team"></a>
 
 ## 🏴 Building a Team
 
-**Team in formation — Hack The Box & CTF competitions.**
+**Team in formation — private research, authorized assessments, and shared infrastructure.**
 
-Looking for hackers who share ideas, explain their reasoning, and keep digging when a challenge gets difficult. Bring your strongest skill or the area you're determined to learn. We'll practice, build tools, and compete together.
+Looking for hackers and builders interested in offensive security, reverse engineering, operating-system hardening, AI, and tool development. We'll train on Hack The Box, develop our private platform, and apply that work to systems we own or have permission to test.
 
 **[Interested in joining? Introduce yourself →](https://github.com/d3faulth-private/README.md/issues/new?title=Team%20interest)**  
 Share your handle, interests, and usual availability. Introductions through GitHub Issues are public.
@@ -95,5 +111,5 @@ Share your handle, interests, and usual availability. Introductions through GitH
 <img src="assets/divider.svg" width="100%" alt="" />
 
 <div align="center">
-  <img src="assets/footer.svg" width="100%" alt="D3FAULTH — Learn. Build. Capture." />
+  <img src="assets/footer.svg" width="100%" alt="D3FAULTH — Research. Build. Secure." />
 </div>

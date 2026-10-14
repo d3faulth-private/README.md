@@ -1,38 +1,33 @@
 # Profile maintenance
 
-This profile follows the reference's compact layout: centered identity banner, link badges, a Python-style introduction, grouped technology badges, a short team invitation, GitHub statistics, and a wave footer.
+This profile presents D3FAULTH as a hacker building a private security team for authorized real-world assessments and research. Hack The Box is retained as a training platform.
 
-## Identity and content
+## Team platform
 
-D3FAULTH is presented as a hacker and CTF player building a team for Hack The Box and competitions. No rank, certification, team size, competition result, or professional experience is invented. Toolkit badges describe the profile's tools and interests, not certifications or claims of mastery.
+The README describes private AI, private assessment and attack-simulation tools, and Anonymous OS as the team's planned platform. Anonymous OS is intended for members-only distribution, with privacy and security controls built into its design. These are development goals, not verified claims of completed deployments or security guarantees.
 
-The HTB badge links to About until the owner supplies an exact public HTB profile URL. Do not guess a numeric HTB profile ID from the handle. Team-interest links use this repository's enabled Issues feature.
+Do not publish internal code, private research data, credentials, or membership information through this profile.
 
 ## Display
 
-The current repository is `d3faulth-private/README.md`. The README displays on its repository page. GitHub profile display requires a public repository named `d3faulth-private/d3faulth-private`.
+The current repository is `d3faulth-private/README.md`. Its README displays on the repository page. GitHub profile display requires a public repository named `d3faulth-private/d3faulth-private`.
 
 GitHub documentation: https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme
 
 ## Artwork and badges
 
-The banner, animated divider, footer, and badge layout are local SVG files. Brand marks in badges come from Simple Icons (https://github.com/simple-icons/simple-icons), which distributes its icons under CC0. Brand marks remain subject to their owners' trademark rules. Decorative symbols for CTF areas are original code-based graphics.
+Local SVG assets provide the centered banner, animated divider, grouped badges, and wave footer. Brand marks come from Simple Icons (https://github.com/simple-icons/simple-icons), distributed under CC0; marks remain subject to their owners' trademark rules. Private-platform and research symbols are original code-based graphics.
 
-The blue and purple palette follows the supplied visual reference. Subtle SVG animations include reduced-motion styles and a complete static fallback.
+The blue and purple palette preserves the supplied reference style. Animations include reduced-motion styles and static fallback artwork.
 
-## Statistics
+## Links and statistics
 
-The three cards use the real GitHub username `d3faulth-private` and the same public card services shown in the reference. Each endpoint returned a valid SVG containing account statistics during this edit. Values are supplied and cached by those services; they do not represent HTB results or private-tool progress.
+The HTB badge links to About until the owner supplies an exact public HTB profile URL. Do not invent a numeric profile identifier. Team-interest links use this repository's Issues feature.
 
-GitHub statistics service: https://github-stats-extended.vercel.app
-Contribution streak service: https://github-readme-streak-stats-eight.vercel.app
+GitHub statistics use `d3faulth-private` with the public services at https://github-stats-extended.vercel.app and https://github-readme-streak-stats-eight.vercel.app. The cards are cached third-party statistics, not HTB results or measurements of the team's private capabilities. No access token is embedded.
 
-Card services can become unavailable; the surrounding links still lead to the account. No access token is embedded in the README.
+## Preview and maintenance
 
-## Preview
+Download `preview.html` with its assets directory. Artwork is local; statistics require an internet connection. Rebuild the preview whenever copy or artwork changes.
 
-Download and open `preview.html`. Keep the assets directory beside the preview. Artwork is local; the statistics cards require an internet connection. Rebuild the preview when the README or artwork changes.
-
-## Updates
-
-Add actual public project links, an exact HTB profile URL, and a confirmed team name as they become available. Keep writeups consistent with challenge rules. Update issue links if the repository is renamed.
+Add confirmed team details and public project links as they become available. Update issue links if this repository is renamed. Badge groups describe areas of work and interest, not certifications or claims of mastery.
